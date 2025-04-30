@@ -12,7 +12,7 @@ public class LightBoard
   {
     lights = new boolean[numRows][numCols];
     for (int i = 0; i < numRows; i++){
-      for (int k = 0; k < numCols[i]; k++){
+      for (int k = 0; k < numCols; k++){
         double ran = Math.random();
         if (ran < 0.4){
           lights[i][k] = true;
